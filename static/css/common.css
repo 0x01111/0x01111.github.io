@@ -16,8 +16,8 @@ html {
   font-family: Consolas, 'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
 }
 body {
-  max-width: 680px;
-  padding: 0 14px;
+  max-width: 880px;
+  padding: 0 16px;
   margin: 0 auto;
 }
 body::-webkit-scrollbar {
@@ -140,13 +140,13 @@ input:-webkit-autofill {
 }
 .header .menu a {
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   margin: 4px 9px;
   white-space: nowrap;
 }
 .footer {
   padding: 15px 0;
-  font-size: 14px;
+  font-size: 16px;
 }
 .footer a {
   text-decoration: underline;
@@ -199,6 +199,6 @@ input:-webkit-autofill {
   }
   .header .menu a {
     margin: 2px 5px;
-    font-size: 15px;
+    font-size: 17px;
   }
 }
