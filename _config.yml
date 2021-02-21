@@ -27,7 +27,7 @@ domainUrl: 'http://baidu.com'
 baseurl: ''
 
 # 吐个槽地址，会在chat页面中重定向到该地址
-tucaoUrl: https://lmxing.github.io
+#tucaoUrl: https://lmxing.github.io
 
 # 菜单
 menu:

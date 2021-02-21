@@ -42,7 +42,6 @@ tf.reduce_sum(
 # 举例
 ![](reduce-sum-01.png)
 
-∏∏∏∏
 
 # 参考
 1. w3c:https://www.w3cschool.cn/tensorflow_python/tensorflow_python-5y4d2i2n.html
