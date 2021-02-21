@@ -40,6 +40,29 @@ tf.reduce_sum(
 5. n维：你应该get到点了吧~
 
 # 举例
+
+```cpp
+>>> x
+<tf.Tensor: shape=(2, 2), dtype=float32, numpy=
+array([[1., 1.],
+       [2., 2.]], dtype=float32)>
+>>> tf.reduce_sum(x)
+<tf.Tensor: shape=(), dtype=float32, numpy=6.0>
+>>>
+>>> tf.reduce_sum(x,0)
+<tf.Tensor: shape=(2,), dtype=float32, numpy=array([3., 3.], dtype=float32)>
+>>>
+>>> tf.reduce_sum(x,1)
+<tf.Tensor: shape=(2,), dtype=float32, numpy=array([2., 4.], dtype=float32)>
+>>>
+>>> tf.reduce_sum(x,0, True)
+<tf.Tensor: shape=(1, 2), dtype=float32, numpy=array([[3., 3.]], dtype=float32)>
+>>>
+>>> tf.reduce_sum(x,1, True)
+<tf.Tensor: shape=(2, 1), dtype=float32, numpy=
+array([[2.],
+       [4.]], dtype=float32)>
+```
 ![](reduce-sum-01.png)
 
 
